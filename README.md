@@ -1,25 +1,18 @@
-Ionic App Base
+bgGeolocation -- Ionic Geolocation with Background Location Services
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+This is a small Ionic mobile app that demonstrates the functionality of background geolocation services with plugins to interface with the native functionality of intended device platforms, specifically iOS and Android.
 
-## Using this project
+Documentation
+-------------------
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+Document to be written soon.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
 
+CLI Installs
+-------------------
 ```bash
-$ npm install -g ionic
+ionic setup sass
+ionic plugin add cordova-plugin-geolocation
+ionic plugin add cordova-plugin-mauron85-background-geolocation
 ```
-
-Then run: 
-
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
