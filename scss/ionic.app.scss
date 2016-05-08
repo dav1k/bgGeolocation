@@ -14,10 +14,30 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
-
+// Custom CSS
+.backgroundImage {
+  background: url("../img/background.jpg");
+}
+.centerDiv {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  padding-top: 60px;
+}
+.mainFont {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.topPadding {
+  padding-top: 12px;
+}
+.largeTopPadding {
+  padding-top: 25px;
+}
+// ./ Custom CSS
 // The path for our ionicons font files, relative to the built CSS in www/css
-$ionicons-font-path: "../lib/ionic/fonts" !default;
-
-// Include all of Ionic
+$ionicons-font-path: "../lib/ionic/fonts" !default; // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-
