@@ -14,15 +14,13 @@ function HomeCtrl($scope, $ionicPlatform, GeoServices) {
 
   // Callback
   var callback = function() {
-    console.log('Inside callback fn');
-
     function apply() {
       vm.geoData = GeoServices.getPosition();
-      console.log('Current position: ' + vm.geoData.latitude + ', ' + vm.geoData.longitude + ' @ ' + vm.geoData.speed + ' mph.', vm.geoData);
+      console.log('Current position: ' + vm.geoData.latitude + ', ' + vm.geoData.longitude + ' @ ' + vm.geoData.speed + ' mph.');
     }
 
     // Async data binding
-    $sscope.$apply(apply());
+    $scope.$apply(apply());
   };
 
   // On Platform ready

@@ -15,7 +15,6 @@ function GeoServices() {
 
   function checkLocation(callback) {
     console.log('GeoServices: checkLocation called.');
-    // callbackFn = callback;
 
     var options = {
       enableHighAccuracy: true,
