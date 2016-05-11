@@ -16,7 +16,7 @@ function HomeCtrl($scope, $ionicPlatform, GeoServices) {
   var callback = function() {
     function apply() {
       vm.geoData = GeoServices.getPosition();
-      console.log('Current position: ' + vm.geoData.latitude + ', ' + vm.geoData.longitude + ' @ ' + vm.geoData.speed + ' mph.');
+      console.log('Current position: ' + vm.geoData.latitude + ', ' + vm.geoData.longitude + ' @ ' + vm.geoData.speed + ' m/s.');
     }
 
     // Async data binding
