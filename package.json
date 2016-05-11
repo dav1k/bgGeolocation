@@ -24,5 +24,7 @@
     "cordova-plugin-geolocation",
     "cordova-plugin-mauron85-background-geolocation"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "android"
+  ]
 }
